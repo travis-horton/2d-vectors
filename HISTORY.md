@@ -4,6 +4,12 @@ The whole history of this project, newest first, written for someone who has nev
 
 ## October 2026
 
+**2d-vectors #10: the four broken arrow tricks work again** · [PR #10](https://github.com/travis-horton/2d-vectors/pull/10) · merged 26.1010.1212 · v1.0.2
+- Fixed: making an arrow length one, subtracting arrows, turning a number back into a grid position, and blending four corner values all stopped with "Vector is not defined" after the 20.0209 rename. They work again.
+- Behind the scenes: automatic checks now try every one of the toolkit's tricks, and the project's settings point at its real file, so loading it by name no longer fails.
+  Try it: open Terminal and paste
+      cd ~/code/2d-vectors && npm test
+
 **2d-vectors #9: the project's past, written down** · [PR #9](https://github.com/travis-horton/2d-vectors/pull/9) · merged 26.1010.1209 · v1.0.1
 - Behind the scenes: the history file now tells the whole story of the project in plain words, from its first day on 20.0209 up to the history tool, one entry per step, numbered from version 0.1.0.
 
