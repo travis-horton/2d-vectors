@@ -2,9 +2,9 @@
   "name": "2d-vectors",
   "version": "1.0.1",
   "description": "vector modules",
-  "main": "vectors.js",
+  "main": "2d-vectors.js",
   "scripts": {
-    "test": "test"
+    "test": "node --no-warnings --test test/"
   },
   "repository": {
     "type": "git",
