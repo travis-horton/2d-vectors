@@ -1,6 +1,6 @@
 {
   "name": "2d-vectors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vector modules",
   "main": "vectors.js",
   "scripts": {

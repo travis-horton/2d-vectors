@@ -4,6 +4,9 @@ The whole history of this project, newest first, written for someone who has nev
 
 ## October 2026
 
+**2d-vectors #9: the project's past, written down** · [PR #9](https://github.com/travis-horton/2d-vectors/pull/9) · merged 26.1010.1209 · v1.0.1
+- Behind the scenes: the history file now tells the whole story of the project in plain words, from its first day on 20.0209 up to the history tool, one entry per step, numbered from version 0.1.0.
+
 **2d-vectors #8: security updates and a self-writing history** · [PR #8](https://github.com/travis-horton/2d-vectors/pull/8) · merged 26.1010.1149 · v1.0.0
 - **Security updates** · merged 26.1010.1149
   Behind the scenes: six borrowed helper packages were moved to the versions that fix their known security problems, gathered from six waiting automatic update requests into one. Nothing about how the project works changes.
