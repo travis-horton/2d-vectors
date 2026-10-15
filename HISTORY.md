@@ -4,6 +4,9 @@ The whole history of this project, newest first, written for someone who has nev
 
 ## October 2026
 
+**2d-vectors #16: the change log catches up on entries it missed** · [PR #16](https://github.com/travis-horton/2d-vectors/pull/16) · merged 26.1015.0728 · v1.0.3
+- Behind the scenes: the robot that writes this file after each change now also writes in any earlier finished change it missed, oldest first, with a "recorded late" note when it is more than an hour late. If GitHub won't answer one of its lookups, it skips only that one, records the newest change anyway, and fills the gap on a later run.
+
 **2d-vectors #10: the four broken arrow tricks work again** · [PR #10](https://github.com/travis-horton/2d-vectors/pull/10) · merged 26.1010.1212 · v1.0.2
 - Fixed: making an arrow length one, subtracting arrows, turning a number back into a grid position, and blending four corner values all stopped with "Vector is not defined" after the 20.0209 rename. They work again.
 - Behind the scenes: automatic checks now try every one of the toolkit's tricks, and the project's settings point at its real file, so loading it by name no longer fails.
