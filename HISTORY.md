@@ -4,6 +4,9 @@ The whole history of this project, newest first, written for someone who has nev
 
 ## October 2026
 
+**2d-vectors #15: Bump js-yaml from 3.13.1 to 3.15.2** · [PR #15](https://github.com/travis-horton/2d-vectors/pull/15) · merged 26.1016.1001 · v1.0.6
+- Behind the scenes: an automatic dependency update — "Bump js-yaml from 3.13.1 to 3.15.2".
+
 **2d-vectors #14: Bump lodash from 4.17.21 to 4.18.1** · [PR #14](https://github.com/travis-horton/2d-vectors/pull/14) · merged 26.1016.1001 · v1.0.5
 - Behind the scenes: an automatic dependency update — "Bump lodash from 4.17.21 to 4.18.1".
 
