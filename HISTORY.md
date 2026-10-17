@@ -4,6 +4,9 @@ The whole history of this project, newest first, written for someone who has nev
 
 ## October 2026
 
+**2d-vectors #22: the change log keeper, refreshed (current checkout step)** · [PR #22](https://github.com/travis-horton/2d-vectors/pull/22) · merged 26.1017.1357 · v1.0.10
+- Behind the scenes: the automatic job that writes this change log now uses version 7 of GitHub's checkout step instead of version 4, and passes what it saves to GitHub as a list rather than one long line of text. The entries it writes, their version numbers and their tags are the same as before.
+
 **2d-vectors #21: Dependabot's updates merge themselves** · [PR #21](https://github.com/travis-horton/2d-vectors/pull/21) · merged 26.1016.1117 · v1.0.9
 - Behind the scenes: a new automatic job merges each library update from Dependabot as soon as it opens, then asks the change-log job to record it, so the updates keep landing without anyone clicking merge.
 
